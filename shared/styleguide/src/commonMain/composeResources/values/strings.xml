@@ -1,3 +1,8 @@
 <resources>
     <string name="styleguide_details">Details</string>
+
+    <plurals name="plural_details">
+        <item quantity="one">%1$d new detail</item>
+        <item quantity="other">%1$d new details</item>
+    </plurals>
 </resources>
