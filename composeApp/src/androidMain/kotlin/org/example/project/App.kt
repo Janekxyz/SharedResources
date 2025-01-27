@@ -26,7 +26,7 @@ fun App() {
                 navController.navigate(Details)
             }
         }
-        composable<Details> { DetailsScreen() }
+        composable<Details> { DetailsScreen(navController) }
     }
 
 }
